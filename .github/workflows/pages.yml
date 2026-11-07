@@ -27,6 +27,7 @@ jobs:
         run: |
           mkdir _site
           cp index.html _site/index.html
+          cp payment-config.js _site/payment-config.js
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
